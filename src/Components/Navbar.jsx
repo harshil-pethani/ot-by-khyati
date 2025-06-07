@@ -68,27 +68,27 @@ const Navbar = () => {
                     <div className="mobileMenu">
                         <ul>
                             <li>
-                                <Link onClick={() => setActiveMenu(false)} to="home" smooth={true} duration={500} className='logo'>
+                                <Link onClick={() => setActiveMenu(false)} to="home" smooth={true} duration={200} className='logo'>
                                     <img src={logo} alt="" />
                                 </Link>
                             </li>
                             <li>
-                                <Link onClick={() => setActiveMenu(false)} to="home" smooth={true} duration={500}>
+                                <Link onClick={() => setActiveMenu(false)} to="home" smooth={true} duration={200}>
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                <Link onClick={() => setActiveMenu(false)} to="services" smooth={true} duration={500}>
+                                <Link onClick={() => setActiveMenu(false)} to="services" smooth={true} duration={200}>
                                     Services
                                 </Link>
                             </li>
                             <li>
-                                <Link onClick={() => setActiveMenu(false)} to="testimonials" smooth={true} duration={500}>
+                                <Link onClick={() => setActiveMenu(false)} to="testimonials" smooth={true} duration={200}>
                                     Testimonials
                                 </Link>
                             </li>
                             <li>
-                                <Link onClick={() => setActiveMenu(false)} to="about-us" smooth={true} duration={500}>
+                                <Link onClick={() => setActiveMenu(false)} to="about-us" smooth={true} duration={200}>
                                     About Us
                                 </Link>
                             </li>
