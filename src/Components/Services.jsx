@@ -91,10 +91,13 @@ const Services = () => {
                     <div className="popupLayer" onClick={() => { setShowPopup(""); setPopupData({}); }}>
                         <div className="popUpBox" onClick={(e) => { e.stopPropagation() }}>
                             <div className="popupHeader">
-                                <ion-icon onClick={() => { setShowPopup(""); setPopupData({}); }} name="close-circle-outline"></ion-icon>
+                                <div></div>
                                 <p className="popup-title">
                                     {popupData.title}
                                 </p>
+                                <div>
+                                    <ion-icon onClick={() => { setShowPopup(""); setPopupData({}); }} name="close-circle-outline"></ion-icon>
+                                </div>
                             </div>
 
                             <div className="popup-data">
