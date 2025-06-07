@@ -68,27 +68,27 @@ const Navbar = () => {
                     <div className="mobileMenu">
                         <ul>
                             <li>
-                                <Link to="home" smooth={true} duration={500} className='logo'>
+                                <Link onClick={() => setActiveMenu(false)} to="home" smooth={true} duration={500} className='logo'>
                                     <img src={logo} alt="" />
                                 </Link>
                             </li>
                             <li>
-                                <Link to="home" smooth={true} duration={500}>
+                                <Link onClick={() => setActiveMenu(false)} to="home" smooth={true} duration={500}>
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                <Link to="services" smooth={true} duration={500}>
+                                <Link onClick={() => setActiveMenu(false)} to="services" smooth={true} duration={500}>
                                     Services
                                 </Link>
                             </li>
                             <li>
-                                <Link to="testimonials" smooth={true} duration={500}>
+                                <Link onClick={() => setActiveMenu(false)} to="testimonials" smooth={true} duration={500}>
                                     Testimonials
                                 </Link>
                             </li>
                             <li>
-                                <Link to="about-us" smooth={true} duration={500}>
+                                <Link onClick={() => setActiveMenu(false)} to="about-us" smooth={true} duration={500}>
                                     About Us
                                 </Link>
                             </li>
