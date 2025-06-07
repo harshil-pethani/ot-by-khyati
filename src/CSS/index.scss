@@ -1,0 +1,35 @@
+// @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+
+@import "./scrollToTopArrow";
+@import "./header";
+@import "./projects";
+@import "./services";
+@import "./navbar";
+@import "./testimonials";
+@import "./footer";
+@import "bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+  // border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  // border-radius: 10px;
+  background-color: #000000;
+}
