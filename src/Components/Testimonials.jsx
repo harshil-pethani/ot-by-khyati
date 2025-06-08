@@ -10,13 +10,14 @@ const Testimonials = () => {
                     <div className="carouselSlide">
                         <br /><br />
                         <h1 className='title'>
-                            The best pediatric care in town!
+                            She is a Magician
                         </h1>
                         <p className="description">
-                            Dr. Emily Johnson has been a blessing for our family! She is not only highly knowledgeable but also incredibly gentle and patient with my little one. My son used to dread doctor visits, but now he looks forward to seeing Dr. Johnson. Highly recommend her to all parents!
+                            My son who  was struggling with speech delay started speaking many things in just few months and all the credit goes to Dr. Khyati . She is truly magical and very very confident about her work … the amount of hardwork and efforts she puts in for each and every child is absolutely commendable!
+                            &nbsp; <a href="https://maps.app.goo.gl/tP9dh6A1Zy1CyNJ89" target='_blank'>Read full review</a>
                         </p>
                         <h1 className='author'>
-                            — Emily R., mother of an 8-year-old
+                            — Komal Kothari
                         </h1>
                         <br /><br />
                     </div>
@@ -25,13 +26,13 @@ const Testimonials = () => {
                     <div className="carouselSlide">
                         <br /><br />
                         <h1 className='title'>
-                            A doctor who truly cares!
+                            A Guiding Light in Our Journey
                         </h1>
                         <p className="description">
-                            We’ve been visiting Dr. Ryan Matthews for over two years now, and I can’t express how grateful I am for his care. He takes the time to explain everything and ensures that both parents and kids are comfortable. He truly goes above and beyond!
+                            Words seem inadequate to express the profound impact Dr. Khyati has had on our daughter, Liana, and our entire family. From the moment Dr. Khyati accurately diagnosed Liana's ADHD, we knew we were in the hands of someone truly exceptional. What followed was nothing short of a transformative journey, guided by Dr. Khyati's expertise, dedication, and unwavering compassion. &nbsp; <a href="https://g.co/kgs/epPrVBf" target='_blank'>Read full review</a>
                         </p>
                         <h1 className="author">
-                            — Priya M., mother of a 1-year-old
+                            — Dr Swati Arora Roy
                         </h1>
                         <br /><br />
                     </div>
@@ -40,13 +41,13 @@ const Testimonials = () => {
                     <div className="carouselSlide">
                         <br /><br />
                         <h1 className='title'>
-                            No more fear of doctor visits!
+                            she's the one you all need it
                         </h1>
                         <p className="description">
-                            Dr. Sophia Carter is the best! She’s always so kind, and her staff is incredibly friendly. My daughter had a fear of needles, but Dr. Carter handled it so skillfully that now she isn’t scared anymore. Thank you, Dr. Carter!
+                            She's one of the brilliant therapist I have ever known and treated by! I can't thank enough to her, how she cure and make my nephew's life sooo better! And she helped me alot to heal me and my family, when we were going through this hard time! My family is always greatful to her! &nbsp; <a href="https://maps.app.goo.gl/iUKXWgEsZtHhj2cj9" target='_blank'>Read full review</a>
                         </p>
                         <h1 className="author">
-                            — Jonathan L., father of 3-year-old twins
+                            — Misari Joshi 
                         </h1>
                         <br /><br />
                     </div>

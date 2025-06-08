@@ -14,7 +14,7 @@ const Header = () => {
                     Occupation Therapy
                 </p>
                 <p className="slogan">
-                    Giving parents and guardians the support they need
+                    by Dr. Khyati Thakkar 
                 </p>
                 {/* <p className="desc">
                     Giving parents and guardians the support they need
