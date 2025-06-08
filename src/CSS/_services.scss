@@ -101,6 +101,28 @@
             padding-top: 3px;
           }
         }
+        .contact-btn {
+          padding: 5px 12px;
+          font-weight: 500;
+          display: block;
+          width: fit-content;
+          font-size: 14px;
+          border-radius: 5px;
+          margin-top: 10px;
+          background: black;
+          text-decoration: none;
+          color: white;
+          border: 2px solid black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 15px;
+
+          ion-icon {
+            font-size: 18px;
+            margin-left: 5px;
+          }
+        }
       }
     }
   }
@@ -141,6 +163,28 @@
       width: 320px;
       position: relative;
       border-radius: 5px;
+
+      .wp-contact {
+        // border: 2px solid red;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        text-decoration: none;
+        color: #000000;
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+
+        ion-icon {
+          font-size: 24px;
+        }
+      }
 
       .service-img-box {
         border-radius: 5px;
@@ -426,6 +470,19 @@
             ion-icon {
               margin-right: 5px;
               padding-top: 3px;
+            }
+          }
+
+          .contact-btn {
+            padding: 4px 8px;
+            font-size: 12px;
+            border-radius: 5px;
+            margin-top: 5px;
+            margin-left: 15px;
+
+            ion-icon {
+              font-size: 14px;
+              margin-left: 5px;
             }
           }
         }

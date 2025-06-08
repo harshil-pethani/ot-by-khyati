@@ -74,6 +74,7 @@ const Services = () => {
             ],
         },
     ]
+    const mobileNumber = "+917861045443";
 
     const handleLearnMore = (index) => {
         setPopupData(serviceData[index]);
@@ -140,6 +141,9 @@ const Services = () => {
                                             }
                                         </>
                                     }
+                                    <a target='_blank' href={`https://wa.me/${mobileNumber}`} className='contact-btn'>
+                                        Contact Me <ion-icon name="logo-whatsapp"></ion-icon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -152,6 +156,9 @@ const Services = () => {
                     {
                         serviceData.map((cardData, index) => (
                             <div className="service-card" key={index}>
+                                <a target='_blank' href={`https://wa.me/${mobileNumber}`} className="wp-contact">
+                                    <ion-icon name="logo-whatsapp"></ion-icon>
+                                </a>
                                 <div className="service-img-box">
                                     <img className="img" src={cardData.image} alt="" />
                                 </div>
