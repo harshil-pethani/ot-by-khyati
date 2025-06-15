@@ -68,7 +68,7 @@ const Footer = () => {
                         About Us
                     </h2>
                     <p className='about-text'>
-                        Dr. Emily Johnson is a highly experienced and compassionate pediatrician dedicated to providing exceptional care to children of all ages.
+                        Dr. Khyati Thakkar is a highly skilled and compassionate Occupational Therapist, committed to delivering personalized, high-quality care that enhances the lives of individuals across all age groups.
                     </p>
                 </div>
             </div>
