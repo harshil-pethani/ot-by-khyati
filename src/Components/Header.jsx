@@ -1,9 +1,8 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
 import heroImg from '/assets/header.jpg';
 
 const Header = () => {
-    const navigate = useNavigate();
+    const mobileNumber = +919876543212;
     return (
         <div id='homeHeader' className="homeHeader">
             <div className="background">
@@ -14,9 +13,9 @@ const Header = () => {
                     Occupation Therapy
                 </p>
                 <p className="slogan">
-                    by Dr. Khyati Thakkar 
+                    by Dr. Khyati Thakkar
                 </p>
-                <button onClick={() => { navigate("/explore") }} className="learnmore">
+                <button onClick={() => { window.open(`https://wa.me/${mobileNumber}`, "_blank"); }} className="learnmore">
                     Book Appointment
                 </button>
             </div>
